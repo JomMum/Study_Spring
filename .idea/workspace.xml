@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b6ef73e-74a7-489a-9ba1-0e3685f39d12" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/sample/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/SampleApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/java/com/example/sample/controller/dto/CategoryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/src/test/java/com/example/sample/SampleApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saple/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saple/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saple/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saple/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saple/.idea/saple.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saple/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Anaj6ewXekYaomTAkyzhGELiZX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/song-jongwoong/Documents/GitHub/Study_Spring",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b6ef73e-74a7-489a-9ba1-0e3685f39d12" name="Changes" comment="" />
+      <created>1655647934976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655647934976</updated>
+    </task>
+    <servers />
+  </component>
+</project>
