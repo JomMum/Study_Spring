@@ -1,16 +1,33 @@
 package com.example.sample.controller;
 import com.example.sample.controller.dto.CategoryDTO;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import com.example.sample.entity.Category;
+import com.example.sample.repository.CategoryService;
+import lombok.AllArgsConstructor;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/categories")
-public class CategoryController {
+@AllArgsConstructor
+public class CategoryController
+{
+    private final CategoryService categoryService;
+
     @PostMapping("")
-    public CategoryDTO createCategory(@RequestBody CategoryDTO categoryDTO)
+    public Category createCategory(@RequestBody CategoryDTO categoryDTO)
     {
-        return categoryDTO;
+        return categoryService.createCategory(categoryDTO);
+    }
+
+    @GetMapping("/{id}")
+    public Category getCategoryById(@PathVariable Long id) {
+        return categoryService.getCategoryById(id);
+    }
+
+    @GetMapping("")
+    public Page<Category> getCategories(Pageable pageable, @RequestParam String keyword)
+    {
+        return categoryService.getCategories(pageable, keyword);
     }
 }
